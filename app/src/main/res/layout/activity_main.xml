@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <TextView
+        android:text="@string/lanterna"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="25dp"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/power"
+        android:src="@drawable/ic_power_off"
+        android:padding="15dp"
+        android:background="@drawable/shape"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="Piscar" />
+
+
+    <ImageView
+        android:id="@+id/flash_off"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_margin="40dp"
+        android:src="@drawable/ic_flash_off" />
+
+</LinearLayout>
